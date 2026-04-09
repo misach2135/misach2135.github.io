@@ -1,8 +1,5 @@
-/* @refresh reload */
-import "./index.css";
 import { render } from "solid-js/web";
-import "solid-devtools";
-import Router from "./router";
+import Router from "./routes/Router";
 
 const root = document.getElementById("root");
 
